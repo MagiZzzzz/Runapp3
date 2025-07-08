@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "VoiceRun",
+    "slug": "runapp4",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "voicerun",
+    "sdkVersion": "53.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "STRAVA_CLIENT_ID": "167142",
+      "STRAVA_CLIENT_SECRET": "c418558a5796bf9a74dc2d3fd756da3cb0c13967"
+    },
+    "plugins": [
+      "react-native-maps"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.guilian.runapp4"
+    },
+    "android": {
+      "package": "com.guilian.runapp4",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
